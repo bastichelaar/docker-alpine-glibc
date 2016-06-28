@@ -1,6 +1,6 @@
 FROM alpine:3.4
 
-LABEL image="metanic/alpine-glibc:3.4"
+LABEL image="eu.gcr.io/metanic-1356/metanic/alpine-glibc:3.4"
 LABEL description="Adds GLIBC to Alpine linux"
 
 ENV GLIBC_VERSION=2.23-r3
