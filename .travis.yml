@@ -3,7 +3,7 @@ sudo: required
 env:
   global:
     - KEYFILE=".travis/travis-keyfile.json"
-    - DOCKER_IMAGE_NAME="metanic/alpine-glibc:3.4"
+    - DOCKER_IMAGE_NAME="eu.gcr.io/metanic-1356/metanic/alpine-glibc:3.4"
 
 services:
 - docker
